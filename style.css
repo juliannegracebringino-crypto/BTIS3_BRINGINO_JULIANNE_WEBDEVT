@@ -1,48 +1,35 @@
-   #blog-header {
-                background-color: #8CA674;
-                color: white;
-                padding: 10px;
-                text-align: center;
-            }
-            
-            #blog {
-                padding: 30px;
-                text-align: justify;
-                letter-spacing: 0.5px; 
-                line-height: 30px;
-            }
+ .read-more {
+    background-color: #6EC466;
+  }
+.submit-button {
+  background-color: #6FA0D1;
+}
 
-            .article {
-                background-color: #AC88BA;
-                padding: 30px;
-                margin: 20px;
-                border: 3px solid #614B86;
-                border-radius: 15px; 
-            }
+nav {
+display: flex;
+gap: 20px;
+}
 
-            .tag {
-                color: white;
-                background-color: #51797A; 
-                padding: 4px 8px;
-                border-radius: 8px;
-                margin: 5px; 
-                font-size: 14px; 
-                display: inline-block;
-            }
 
-            .article[data-author="Alex"] {
-                color: #6E4B70;
-                border-style: dashed; 
-                background-color: #CBA3CC; 
-                border-color: #845E85;
-                border-width: 5px;
-    
-            }
+.article-image {
+width: 250px;
+float: right;
+margin-right: 20px;
+}
 
-            .article:nth-child(odd) {
-                font-family: Arial; 
-            }
-            
-            .article:nth-child(even) {
-                font-family: Verdana; 
-            }
+footer {
+clear: both;
+}
+
+#blog-header {
+display: flex;
+justify-content: space-between;
+align-items: justify;
+gap: 20px;
+}
+
+.page-layout {
+display: grid;
+grid-template-columns: 1fr 300px;
+gap: 30px;
+}
