@@ -1,0 +1,22 @@
+ .read-more {
+    background-color: #6EC466;
+  }
+
+nav {
+display: flex;
+gap: 20px;
+}
+
+
+#blog-header {
+display: flex;
+justify-content: space-between;
+align-items: justify;
+gap: 20px;
+}
+
+.page-layout {
+display: grid;
+grid-template-columns: 1fr 300px;
+gap: 30px;
+}
